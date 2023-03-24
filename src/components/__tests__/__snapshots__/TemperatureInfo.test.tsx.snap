@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemperatureInfo should render 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-SemiBold",
+          "fontSize": 100,
+        }
+      }
+    >
+      30
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Medium",
+          "fontSize": 40,
+          "marginTop": 30,
+        }
+      }
+    >
+      °C
+    </Text>
+    <Text
+      style={
+        {
+          "alignSelf": "flex-end",
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Light",
+          "fontSize": 18,
+          "marginBottom": 30,
+          "marginLeft": -30,
+        }
+      }
+    >
+      Feels like 32°C
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginBottom": 24,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        {
+          "uri": "https:https://www.example.com/icon.png",
+        }
+      }
+      style={
+        {
+          "height": 50,
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Medium",
+          "fontSize": 30,
+        }
+      }
+    >
+      Sunny
+    </Text>
+  </View>
+</View>
+`;

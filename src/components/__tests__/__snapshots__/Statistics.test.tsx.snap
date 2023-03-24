@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statistics should render correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(0,0,0, 0.2)",
+      "borderColor": "#FFFFFF",
+      "borderRadius": 14,
+      "borderWidth": 2,
+      "flexDirection": "row",
+      "marginVertical": 8,
+      "paddingHorizontal": 12,
+      "paddingVertical": 14,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRightColor": "#FFFFFF",
+        "borderRightWidth": 2,
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 20,
+        }
+      }
+    >
+      Value 1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Regular",
+          "fontSize": 16,
+        }
+      }
+    >
+      Label 1
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRightColor": "#FFFFFF",
+        "borderRightWidth": 2,
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 20,
+        }
+      }
+    >
+      Value 2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Regular",
+          "fontSize": 16,
+        }
+      }
+    >
+      Label 2
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 20,
+        }
+      }
+    >
+      Value 3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "OpenSans-Regular",
+          "fontSize": 16,
+        }
+      }
+    >
+      Label 3
+    </Text>
+  </View>
+</View>
+`;

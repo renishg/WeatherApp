@@ -1,0 +1,1351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast renders correctly for daily 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(0,0,0, 0.2)",
+      "borderColor": "#FFFFFF",
+      "borderRadius": 14,
+      "borderWidth": 2,
+      "marginVertical": 8,
+      "paddingHorizontal": 12,
+      "paddingVertical": 14,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 16,
+        "margin": 8,
+      }
+    }
+    testID="label"
+  >
+    DAILY FORECAST
+  </Text>
+  <RCTScrollView
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={false}
+    data={
+      [
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+          "subTitle": "Mar 24",
+          "tempC": 10,
+          "title": "Fri",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+          "subTitle": "Mar 25",
+          "tempC": 10,
+          "title": "Sat",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+          "subTitle": "Mar 26",
+          "tempC": 7,
+          "title": "Sun",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+          "subTitle": "Mar 27",
+          "tempC": 6,
+          "title": "Mon",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+          "subTitle": "Mar 28",
+          "tempC": 5,
+          "title": "Tue",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+          "subTitle": "Mar 29",
+          "tempC": 8,
+          "title": "Wed",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+          "subTitle": "Mar 30",
+          "tempC": 10,
+          "title": "Thu",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Fri
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 24
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/302.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            10°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Sat
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 25
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/176.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            10°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Sun
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 26
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/176.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            7°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Mon
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 27
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            6°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Tue
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 28
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/122.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            5°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Wed
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 29
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/302.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            8°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Thu
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-Regular",
+                "fontSize": 12,
+              }
+            }
+          >
+            Mar 30
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/176.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            10°C
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Forecast renders correctly for hourly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(0,0,0, 0.2)",
+      "borderColor": "#FFFFFF",
+      "borderRadius": 14,
+      "borderWidth": 2,
+      "marginVertical": 8,
+      "paddingHorizontal": 12,
+      "paddingVertical": 14,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 16,
+        "margin": 8,
+      }
+    }
+    testID="label"
+  >
+    HOURLY FORECAST
+  </Text>
+  <RCTScrollView
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={false}
+    data={
+      [
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+          "tempC": 9,
+          "title": "12 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+          "tempC": 9,
+          "title": "1 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+          "tempC": 8,
+          "title": "2 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+          "tempC": 8,
+          "title": "3 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+          "tempC": 7,
+          "title": "4 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+          "tempC": 7,
+          "title": "5 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+          "tempC": 7,
+          "title": "6 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+          "tempC": 8,
+          "title": "7 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+          "tempC": 9,
+          "title": "8 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+          "tempC": 10,
+          "title": "9 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+          "tempC": 11,
+          "title": "10 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+          "tempC": 12,
+          "title": "11 AM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 12,
+          "title": "12 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+          "tempC": 13,
+          "title": "1 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 13,
+          "title": "2 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 12,
+          "title": "3 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 11,
+          "title": "4 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 11,
+          "title": "5 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+          "tempC": 10,
+          "title": "6 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+          "tempC": 9,
+          "title": "7 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+          "tempC": 9,
+          "title": "8 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+          "tempC": 9,
+          "title": "9 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+          "tempC": 9,
+          "title": "10 PM",
+        },
+        {
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+          "tempC": 9,
+          "title": "11 PM",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            12 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/296.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            9°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            1 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/122.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            9°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            2 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            8°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            3 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            8°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            4 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            7°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            5 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/night/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            7°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            6 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/122.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            7°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            7 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            8°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            8 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            9°C
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "paddingHorizontal": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            9 AM
+          </Text>
+          <Image
+            source={
+              {
+                "uri": "https://cdn.weatherapi.com/weather/64x64/day/116.png",
+              }
+            }
+            style={
+              {
+                "height": 50,
+                "marginVertical": 4,
+                "width": 50,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "OpenSans-SemiBold",
+                "fontSize": 16,
+              }
+            }
+          >
+            10°C
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

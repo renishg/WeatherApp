@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location should render the Location component correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "column",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans-Medium",
+        "fontSize": 30,
+      }
+    }
+    testID="name"
+  >
+    London
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans-Medium",
+        "fontSize": 14,
+      }
+    }
+    testID="region"
+  >
+    City of London, Greater London, United Kingdom
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "OpenSans-Regular",
+        "fontSize": 16,
+        "marginTop": 10,
+      }
+    }
+    testID="updatedText"
+  >
+    Updated 20 hours ago
+  </Text>
+</View>
+`;
